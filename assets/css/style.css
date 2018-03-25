@@ -303,7 +303,7 @@ input[type=submit] {
         padding: 30px;
         opacity: .9;
         width: 80%;
-        max-width: 768px;
+        max-width: 645px;
         border: 1px solid #ddd;
         margin-bottom: 20px;
         display: block;
@@ -314,13 +314,13 @@ input[type=submit] {
 
 /*media query -- 640px and below*/
 @media only screen and (max-width: 640px) {
-    .container {
-        max-width: 150%
-    }
-    
     .main-section {
         clear: both;
         width: 60%;
+    }
+
+    .container {
+        max-width: 150%
     }
 
     #masthead {
@@ -349,5 +349,6 @@ input[type=submit] {
     .sidebar {
         width: 100%;
         float: left;
+        max-width: 600px;
     }
 }
